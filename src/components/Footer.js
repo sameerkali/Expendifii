@@ -13,34 +13,38 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <Link href={"/"} className="text-3xl">
-              <span className="text-rose-600">N</span>aseem.
+            <Link href={"/"}>
+              <h2 className="text-3xl">
+                <span className="text-[#FFD600]">Ex</span>
+                <span className="text-[#04D07A]">pendifii</span>
+              </h2>
             </Link>
             <p className="max-w-xs mt-4 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-              accusantium.
+              Transforming your vision into reality with cutting-edge web,
+              backend, and app development solutions tailored to your business
+              needs ever.
             </p>
             <div className="flex mt-8 space-x-6">
-              <Link
+              {/* <Link
                 href="https://www.facebook.com/profile.php?id=100017192357822&sk"
                 target="_blank"
               >
                 <FacebookOutlinedIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
-              </Link>
-              <Link href="https://github.com/NaseemKhan005" target="_blank">
+              </Link> */}
+              <Link href="https://github.com/expendifii" target="_blank">
                 <GitHubIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/naseem-khan-275275258/"
+                href="https://in.linkedin.com/company/expendifii?trk=public_profile_experience-item_profile-section-card_image-click"
                 target="_blank"
               >
                 <LinkedInIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
               </Link>
-              <Link href="https://twitter.com/NaseemK69128903" target="_blank">
+              <Link href="https://twitter.com/expendifii" target="_blank">
                 <TwitterIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
               </Link>
               <Link
-                href="https://www.instagram.com/naseem_khan005/"
+                href="https://www.instagram.com/expendifii/"
                 target="_blank"
               >
                 <InstagramIcon className="hover:text-rose-600 hover:-translate-y-1 transition-all" />
@@ -59,10 +63,10 @@ const Footer = () => {
                   About
                 </Link>
                 <Link
-                  href="/"
+                  href="#projects"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Meet the Team
+                  projects
                 </Link>
                 <Link
                   href="/"
@@ -85,31 +89,43 @@ const Footer = () => {
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Coaching
+                  Web development
                 </Link>
                 <Link
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Company Review
+                  App development
                 </Link>
                 <Link
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Accounts Review
+                  Ecommarce development
                 </Link>
                 <Link
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  HR Consulting
+                  Cloud
                 </Link>
                 <Link
                   href="/"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
                   SEO Optimisation
+                </Link>
+                <Link
+                  href="/"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Adds
+                </Link>
+                <Link
+                  href="/"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Backend
                 </Link>
               </nav>
             </div>
@@ -167,7 +183,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2022 Naseem Khan - All rights reserved</p>
+        <p className="mt-8 text-xs">© 2024 Expendifii - All rights reserved</p>
       </div>
     </footer>
   );
