@@ -11,6 +11,7 @@ import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import Work from "@/components/Work";
 import Projects from "@/components/Projects";
+import ProjectsApp from "@/components/ProjectsApp";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       <QualityFeatures />
       <CoreFeatures />
       <Work />
-      {/* <Pricing /> */}
+      <ProjectsApp />
       <Projects />
       {/* <Team /> */}
       <Testimonials />
