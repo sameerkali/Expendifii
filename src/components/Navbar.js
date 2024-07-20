@@ -30,6 +30,11 @@ const Navbar = () => {
     };
   }, []);
 
+  const handleLinkClick = (link) => {
+    setSelectedItem(link);
+    setToggleMenu(false);
+  };
+
   return (
     <div
       ref={navbar}
@@ -60,24 +65,18 @@ const Navbar = () => {
             >
               <CloseOutlinedIcon />
             </button>
-            {["home", "features","projects", "testimonial"].map((link) => (
+            {["home", "features", "projects", "testimonial"].map((link) => (
               <li
                 key={link}
                 className={`${
                   selectedItem === link ? "text-rose-600" : ""
                 } capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
-                onClick={() => setSelectedItem(link)}
+                onClick={() => handleLinkClick(link)}
               >
                 <Link href={`#${link}`}>{link}</Link>
               </li>
             ))}
             <div className="md:hidden mx-auto absolute bottom-16 left-1/2 -translate-x-1/2 flex gap-3">
-              {/* <Link
-                href="https://www.facebook.com/profile.php?id=100017192357822&sk"
-                target="_blank"
-              >
-                <FacebookOutlinedIcon className="cursor-pointer hover:text-rose-600 text-xl" />
-              </Link> */}
               <Link
                 target="_blank"
                 href={"https://in.linkedin.com/company/expendifii?trk=public_profile_experience-item_profile-section-card_image-click"}
