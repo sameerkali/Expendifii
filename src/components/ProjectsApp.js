@@ -31,7 +31,7 @@ const ProjectCard = ({ imgSrc, name, description, webLink, androidLink, iosLink 
 const ProjectsApp = () => {
   const projectsData = [
     {
-      imgSrc: "/projects/apps/1.png",
+      imgSrc: "/projects/apps/1.webp",
       name: "Fulfillment",
       description: "Inventory Management App",
       webLink: "http://fulfillment.vip",
@@ -39,7 +39,7 @@ const ProjectsApp = () => {
       iosLink: null
     },
     {
-      imgSrc: "/projects/apps/2.png",
+      imgSrc: "/projects/apps/2.webp",
       name: "Net Fit",
       description: "Fitness App",
       webLink: null,
@@ -47,7 +47,7 @@ const ProjectsApp = () => {
       iosLink: "https://apps.apple.com/pk/app/netfit-netball/id1389098661"
     },
     {
-      imgSrc: "/projects/apps/3.png",
+      imgSrc: "/projects/apps/3.webp",
       name: "Salon",
       description: "Saloon Management App",
       webLink: null,
@@ -56,7 +56,7 @@ const ProjectsApp = () => {
     },
     
     {
-      imgSrc: "/projects/apps/4.png",
+      imgSrc: "/projects/apps/4.webp",
       name: "Anantara",
       description: "Hotels App",
       webLink: null,
