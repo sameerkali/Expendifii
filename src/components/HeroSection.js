@@ -5,24 +5,13 @@ import Link from "next/link";
 import {useState} from 'react'
 
 const HeroSection = () => {
-  // const [num, setNum] = useState(0)
-  const handleClick = () => {
-    setNum(s => s+1) // 
-    console.log(num)
-    setNum(s => s+1)
-    console.log(num)
-    setNum(s => s+1)
-    console.log(num)
-  }
+
   return (
     <section
       className="text-center flex flex-col gap-10 sm:gap-20 items-center justify-center h-full mt-28 sm:mt-32 md:mt-44"
       id="home"
     >
-      // <div>
-      //   <h1>{num}</h1>
-      //   <button onClick={handleClick}>click me</button>
-      // </div>
+
       <div className="md:w-2/3 lg:w-1/2 container px-5 md:px-16 mx-auto">
         <h1 className="capitalize flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
           <p>top quality digital </p>
