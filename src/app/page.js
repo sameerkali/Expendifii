@@ -12,6 +12,7 @@ import Testimonials from "@/components/Testimonials";
 import Work from "@/components/Work";
 import Projects from "@/components/Projects";
 import ProjectsApp from "@/components/ProjectsApp";
+import Restaurants from "@/components/Restaurants";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Work />
       <ProjectsApp />
       <Projects />
+      <Restaurants />
       {/* <Team /> */}
       <Testimonials />
       {/* <Subscribe /> */}
